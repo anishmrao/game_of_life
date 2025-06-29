@@ -1,0 +1,4 @@
+*.pyc
+src/__pycache__
+.gol/
+__pycache__

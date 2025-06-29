@@ -109,6 +109,7 @@ Note: Basic implementaiton is not listed because it is too slow to run for the l
 
 3. Generate performance plots:
    ```bash
+   cd analysis
    python plot_performance.py output.csv
    ```
 

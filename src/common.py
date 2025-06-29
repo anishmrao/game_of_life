@@ -64,8 +64,8 @@ def parse_arguments():
                        help='Number of iterations to run performance measurements (default: 1000)')
     parser.add_argument('--warmup-iterations', type=int, default=50,
                        help='Number of warmup iterations (default: 50)')
-    parser.add_argument('--output-file', type=str, default='output.csv',
-                       help='Output file for performance measurements (default: output.csv)')
+    parser.add_argument('--output-file', type=str, default='../analysis/output.csv',
+                       help='Output file for performance measurements (default: ../analysis/output.csv)')
     parser.add_argument('--name', type=str, default='Default',
                        help='Name of the experiment (default: Default)')
     return parser.parse_args()
